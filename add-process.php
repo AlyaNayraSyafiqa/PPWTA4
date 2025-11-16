@@ -15,10 +15,11 @@ if(!$old['nama']) $errors['nama'] = "Nama wajib diisi";
 elseif(!preg_match("/^[a-zA-Z\s]+$/",$old['nama'])) $errors['nama'] = "Nama hanya boleh huruf dan spasi";
 
 if(!$old['telepon']) $errors['telepon'] = "Telepon wajib diisi";
-elseif(!preg_match("/^[0-9]+$/",$old['telepon'])) $errors['telepon'] = "Telepon hanya boleh angka";
+elseif(!preg_match("/^[0-9+]+$/",$old['telepon'])) $errors['telepon'] = "Telepon hanya boleh angka atau '+'";
 
 if(!$old['email']) $errors['email'] = "Email wajib diisi";
 elseif(!filter_var($old['email'], FILTER_VALIDATE_EMAIL)) $errors['email'] = "Email tidak valid";
+
 
 $foto_name = null;
 if(isset($_FILES['foto']) && $_FILES['foto']['error']==0){
@@ -55,5 +56,5 @@ $_SESSION['kontak'][] = [
     'foto' => $foto_name
 ];
 $_SESSION['success'] = "Kontak berhasil ditambahkan!";
-header("Location: index.php");
+header("Location: add.php");
 exit();
