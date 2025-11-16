@@ -2,7 +2,8 @@
 Sistem manajemen kontak sederhana yang dibuat menggunakan Bootstrap dan PHP. Pengguna dapat menambahkan, melihat, mengedit, dan menghapus kontak. Sistem ini juga dilengkapi dengan validasi form dan session management untuk keamanan.
 
 1. Form Tambah Kontak dengan validasi
-<img width="1891" height="897" alt="Cuplikan layar 2025-11-16 154927" src="https://github.com/user-attachments/assets/eed462b9-4da7-4069-9501-68b241798650" />
+<img width="1887" height="903" alt="image" src="https://github.com/user-attachments/assets/c355356f-193b-457e-a48a-d0ef38ef8b26" />
+
 Validasi :
 <img width="1100" height="731" alt="image" src="https://github.com/user-attachments/assets/2be5c986-e721-4962-8c12-51c6579e80ad" />
 Hasil pada tampilan :
