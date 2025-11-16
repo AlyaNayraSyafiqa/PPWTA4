@@ -1,5 +1,4 @@
 # Simetak - Sistem Manajemen Kontak
-
 Simetak adalah aplikasi Sistem Manajemen Kontak yang dibuat menggunakan PHP dan **Bootstrap.  
 Pengguna dapat menambahkan, melihat, mengedit, dan menghapus kontak. Sistem ini juga dilengkapi dengan validasi form dan session management untuk keamanan.
 
@@ -7,10 +6,10 @@ Pengguna dapat menambahkan, melihat, mengedit, dan menghapus kontak. Sistem ini 
 ### 1. Form Tambah Kontak dengan Validasi
 - Pengguna dapat menambahkan kontak baru.
 - Form dilengkapi validasi untuk:
-  - Nama hanya boleh huruf dan spasi
-  - Email harus valid
-  - Telepon hanya boleh angka atau simbol "+"
-  - Upload foto opsional (format JPG, JPEG, PNG)
+  1) Nama hanya boleh huruf dan spasi
+  4) Email harus valid
+  3) Telepon hanya boleh angka atau simbol "+"
+  4) Upload foto opsional (format JPG, JPEG, PNG)
 
 **Contoh tampilan form:**
 ![Form Tambah Kontak](https://github.com/user-attachments/assets/c355356f-193b-457e-a48a-d0ef38ef8b26)
@@ -43,9 +42,9 @@ Pengguna dapat menambahkan, melihat, mengedit, dan menghapus kontak. Sistem ini 
 
 ### 4. Session Management
 - Sistem menggunakan **session** untuk:
-  - Mengelola login pengguna.
-  - Menyimpan kontak sementara (tanpa database).
-  - Menyimpan error atau notifikasi setelah menambah/edit kontak.
+  1) Mengelola login pengguna.
+  2) Menyimpan kontak sementara (tanpa database).
+  3) Menyimpan error atau notifikasi setelah menambah/edit kontak.
 - Session juga digunakan untuk menampilkan pesan sukses/error pada form.
 
 ### 5. Login dan Logout
@@ -55,7 +54,7 @@ Pengguna dapat menambahkan, melihat, mengedit, dan menghapus kontak. Sistem ini 
 ![Login dan Logout](https://github.com/user-attachments/assets/1986c602-cf2b-4382-a7ce-5949f3925e59)
 
 Login : 
-Username : admin 
-Password : 123456
+- Username : admin 
+- Password : 123456
 
 
