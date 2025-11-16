@@ -22,3 +22,7 @@ Klik button hapus maka akan di minta konfirmasi seperti ini :
 
 4. Session Management
 Sudah menggunakan session Management pada web yang saya buat (bisa di cek pada kode program)
+
+5. Login dan logout
+<img width="1919" height="900" alt="image" src="https://github.com/user-attachments/assets/1986c602-cf2b-4382-a7ce-5949f3925e59" />
+
